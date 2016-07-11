@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1E7AAC1D3460590036823F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E7AAB1D3460590036823F /* AppDelegate.swift */; };
+		FE1E7AAE1D3460590036823F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E7AAD1D3460590036823F /* ViewController.swift */; };
+		FE1E7AB01D3460590036823F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1E7AAF1D3460590036823F /* Assets.xcassets */; };
+		FE1E7AB31D3460590036823F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E7AB11D3460590036823F /* Main.storyboard */; };
+		FE1E7ABE1D34605A0036823F /* SyncronatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E7ABD1D34605A0036823F /* SyncronatorTests.swift */; };
+		FE1E7AC91D34605A0036823F /* SyncronatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E7AC81D34605A0036823F /* SyncronatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1E7ABA1D34605A0036823F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1E7AA01D3460590036823F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1E7AA71D3460590036823F;
+			remoteInfo = Syncronator;
+		};
+		FE1E7AC51D34605A0036823F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1E7AA01D3460590036823F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1E7AA71D3460590036823F;
+			remoteInfo = Syncronator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1E7AA81D3460590036823F /* Syncronator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syncronator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E7AAB1D3460590036823F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE1E7AAD1D3460590036823F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE1E7AAF1D3460590036823F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE1E7AB21D3460590036823F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE1E7AB41D3460590036823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E7AB91D34605A0036823F /* SyncronatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncronatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E7ABD1D34605A0036823F /* SyncronatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncronatorTests.swift; sourceTree = "<group>"; };
+		FE1E7ABF1D34605A0036823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1E7AC41D34605A0036823F /* SyncronatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncronatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1E7AC81D34605A0036823F /* SyncronatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncronatorUITests.swift; sourceTree = "<group>"; };
+		FE1E7ACA1D34605A0036823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1E7AA51D3460590036823F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E7AB61D34605A0036823F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E7AC11D34605A0036823F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1E7A9F1D3460590036823F = {
+			isa = PBXGroup;
+			children = (
+				FE1E7AAA1D3460590036823F /* Syncronator */,
+				FE1E7ABC1D34605A0036823F /* SyncronatorTests */,
+				FE1E7AC71D34605A0036823F /* SyncronatorUITests */,
+				FE1E7AA91D3460590036823F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1E7AA91D3460590036823F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E7AA81D3460590036823F /* Syncronator.app */,
+				FE1E7AB91D34605A0036823F /* SyncronatorTests.xctest */,
+				FE1E7AC41D34605A0036823F /* SyncronatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1E7AAA1D3460590036823F /* Syncronator */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E7AAB1D3460590036823F /* AppDelegate.swift */,
+				FE1E7AAD1D3460590036823F /* ViewController.swift */,
+				FE1E7AAF1D3460590036823F /* Assets.xcassets */,
+				FE1E7AB11D3460590036823F /* Main.storyboard */,
+				FE1E7AB41D3460590036823F /* Info.plist */,
+			);
+			path = Syncronator;
+			sourceTree = "<group>";
+		};
+		FE1E7ABC1D34605A0036823F /* SyncronatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E7ABD1D34605A0036823F /* SyncronatorTests.swift */,
+				FE1E7ABF1D34605A0036823F /* Info.plist */,
+			);
+			path = SyncronatorTests;
+			sourceTree = "<group>";
+		};
+		FE1E7AC71D34605A0036823F /* SyncronatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E7AC81D34605A0036823F /* SyncronatorUITests.swift */,
+				FE1E7ACA1D34605A0036823F /* Info.plist */,
+			);
+			path = SyncronatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE1E7AA71D3460590036823F /* Syncronator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1E7ACD1D34605A0036823F /* Build configuration list for PBXNativeTarget "Syncronator" */;
+			buildPhases = (
+				FE1E7AA41D3460590036823F /* Sources */,
+				FE1E7AA51D3460590036823F /* Frameworks */,
+				FE1E7AA61D3460590036823F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Syncronator;
+			productName = Syncronator;
+			productReference = FE1E7AA81D3460590036823F /* Syncronator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE1E7AB81D34605A0036823F /* SyncronatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1E7AD01D34605A0036823F /* Build configuration list for PBXNativeTarget "SyncronatorTests" */;
+			buildPhases = (
+				FE1E7AB51D34605A0036823F /* Sources */,
+				FE1E7AB61D34605A0036823F /* Frameworks */,
+				FE1E7AB71D34605A0036823F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1E7ABB1D34605A0036823F /* PBXTargetDependency */,
+			);
+			name = SyncronatorTests;
+			productName = SyncronatorTests;
+			productReference = FE1E7AB91D34605A0036823F /* SyncronatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE1E7AC31D34605A0036823F /* SyncronatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1E7AD31D34605A0036823F /* Build configuration list for PBXNativeTarget "SyncronatorUITests" */;
+			buildPhases = (
+				FE1E7AC01D34605A0036823F /* Sources */,
+				FE1E7AC11D34605A0036823F /* Frameworks */,
+				FE1E7AC21D34605A0036823F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1E7AC61D34605A0036823F /* PBXTargetDependency */,
+			);
+			name = SyncronatorUITests;
+			productName = SyncronatorUITests;
+			productReference = FE1E7AC41D34605A0036823F /* SyncronatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1E7AA01D3460590036823F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luiz Fonseca";
+				TargetAttributes = {
+					FE1E7AA71D3460590036823F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FE1E7AB81D34605A0036823F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE1E7AA71D3460590036823F;
+					};
+					FE1E7AC31D34605A0036823F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE1E7AA71D3460590036823F;
+					};
+				};
+			};
+			buildConfigurationList = FE1E7AA31D3460590036823F /* Build configuration list for PBXProject "Syncronator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE1E7A9F1D3460590036823F;
+			productRefGroup = FE1E7AA91D3460590036823F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1E7AA71D3460590036823F /* Syncronator */,
+				FE1E7AB81D34605A0036823F /* SyncronatorTests */,
+				FE1E7AC31D34605A0036823F /* SyncronatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1E7AA61D3460590036823F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E7AB01D3460590036823F /* Assets.xcassets in Resources */,
+				FE1E7AB31D3460590036823F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E7AB71D34605A0036823F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E7AC21D34605A0036823F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1E7AA41D3460590036823F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E7AAE1D3460590036823F /* ViewController.swift in Sources */,
+				FE1E7AAC1D3460590036823F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E7AB51D34605A0036823F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E7ABE1D34605A0036823F /* SyncronatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E7AC01D34605A0036823F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1E7AC91D34605A0036823F /* SyncronatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1E7ABB1D34605A0036823F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1E7AA71D3460590036823F /* Syncronator */;
+			targetProxy = FE1E7ABA1D34605A0036823F /* PBXContainerItemProxy */;
+		};
+		FE1E7AC61D34605A0036823F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1E7AA71D3460590036823F /* Syncronator */;
+			targetProxy = FE1E7AC51D34605A0036823F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE1E7AB11D3460590036823F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1E7AB21D3460590036823F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1E7ACB1D34605A0036823F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE1E7ACC1D34605A0036823F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE1E7ACE1D34605A0036823F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Syncronator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ydreams.Syncronator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE1E7ACF1D34605A0036823F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Syncronator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ydreams.Syncronator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE1E7AD11D34605A0036823F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyncronatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ydreams.SyncronatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Syncronator.app/Contents/MacOS/Syncronator";
+			};
+			name = Debug;
+		};
+		FE1E7AD21D34605A0036823F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyncronatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ydreams.SyncronatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Syncronator.app/Contents/MacOS/Syncronator";
+			};
+			name = Release;
+		};
+		FE1E7AD41D34605A0036823F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyncronatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ydreams.SyncronatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Syncronator;
+			};
+			name = Debug;
+		};
+		FE1E7AD51D34605A0036823F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyncronatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ydreams.SyncronatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Syncronator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1E7AA31D3460590036823F /* Build configuration list for PBXProject "Syncronator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E7ACB1D34605A0036823F /* Debug */,
+				FE1E7ACC1D34605A0036823F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1E7ACD1D34605A0036823F /* Build configuration list for PBXNativeTarget "Syncronator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E7ACE1D34605A0036823F /* Debug */,
+				FE1E7ACF1D34605A0036823F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE1E7AD01D34605A0036823F /* Build configuration list for PBXNativeTarget "SyncronatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E7AD11D34605A0036823F /* Debug */,
+				FE1E7AD21D34605A0036823F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE1E7AD31D34605A0036823F /* Build configuration list for PBXNativeTarget "SyncronatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E7AD41D34605A0036823F /* Debug */,
+				FE1E7AD51D34605A0036823F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE1E7AA01D3460590036823F /* Project object */;
+}
