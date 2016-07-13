@@ -92,7 +92,7 @@ class SyncController: NSViewController {
         var fileContent = try? String(contentsOfFile: "\(currPath)/Resources/feed.xml", encoding: NSUTF8StringEncoding)
         fileContent = fileContent?.stringByReplacingOccurrencesOfString(" ", withString: "\n")
         
-        let pattern = "(resources\\/(.*)?\\.png|gif|jpeg|jpg)"
+        let pattern = "(resources\\/(.*)?\\.[png|gif||jpeg|jpg]{3,4})"
         var str = fileContent!.regexMatches(pattern)
         str = Array(Set(str))
         
@@ -105,17 +105,20 @@ class SyncController: NSViewController {
         
         for value: String in str {
             
-            var name = value.regexMatches("resources\\/((.+)\\.png|gif|jpeg|jpg)")
+            var name = value.regexMatches("resources\\/((.+)\\.[png|gif||jpeg|jpg]{3,4})")
             
+            print(name[0])
             
-            self.downloadUrl(name[0], url: "\(resourcesUrl[0])resources/\(name[0])", params: [:]) { (data: AnyObject) in
-                
-                dispatch_async(dispatch_get_main_queue()) {
-                    self.currentCount = self.currentCount + 1
-                    self.resourcesLoader.incrementBy(itemIncrement)
-                    self.currentItemDownload.stringValue = "\(self.currentCount)"
+            if (name.count > 0) {
+                self.downloadUrl(name[0], url: "\(resourcesUrl[0])resources/\(name[0])", params: [:]) { (data: AnyObject) in
+                    
+                    dispatch_async(dispatch_get_main_queue()) {
+                        self.currentCount = self.currentCount + 1
+                        self.resourcesLoader.incrementBy(itemIncrement)
+                        self.currentItemDownload.stringValue = "\(self.currentCount)"
+                    }
+                    
                 }
-                
             }
         }
     }
